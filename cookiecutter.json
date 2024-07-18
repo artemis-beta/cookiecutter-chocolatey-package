@@ -1,7 +1,8 @@
 {
+  "project_title": "",
   "package_author": "",
   "package_repo_url": "",
-  "package_slug": "{{ cookiecutter.project_name.lower().replace(' ', '').lower() }}",
+  "package_slug": "{{ cookiecutter.project_title.lower().replace(' ', '').lower() }}",
   "project_authors": "",
   "project_version": "",
   "project_url": "",
