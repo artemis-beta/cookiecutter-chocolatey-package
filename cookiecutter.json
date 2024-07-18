@@ -1,0 +1,18 @@
+{
+  "package_author": "",
+  "package_repo_url": "",
+  "package_slug": "{{ cookiecutter.project_name.lower().replace(' ', '').lower() }}",
+  "project_authors": "",
+  "project_version": "",
+  "project_url": "",
+  "project_repo_url": "",
+  "project_issues_url": "{{ cookiecutter.project_repo_url }}/issues",
+  "project_license_url": "{{ cookiecutter.project_repo_url }}/blob/main/LICENSE",
+  "project_icon_url": "",
+  "project_copyright": "© 2024 {{ cookiecutter.project_authors }}",
+  "project_tags": "",
+  "require_license_accept": false,
+  "project_summary": "",
+  "project_description": "",
+  "project_release_notes": "{{ cookiecutter.project_repo_url }}/releases/tag/{{ project_version }}"
+}
