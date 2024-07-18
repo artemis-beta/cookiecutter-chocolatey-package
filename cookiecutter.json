@@ -15,5 +15,5 @@
   "require_license_accept": false,
   "project_summary": "",
   "project_description": "",
-  "project_release_notes": "{{ cookiecutter.project_repo_url }}/releases/tag/{{ project_version }}"
+  "project_release_notes": "{{ cookiecutter.project_repo_url }}/releases/tag/{{ cookiecutter.project_version }}"
 }
