@@ -1,17 +1,17 @@
-# {{ project_name }} Chocolatey Package
-Allows the installation of [Stunt Rally](https://github.com/stuntrally/stuntrally3) by [Crystal Hammer](https://github.com/cryham) via the [Chocolatey Package Manager](https://community.chocolatey.org/) for Windows. The setup will install Stunt Rally into `C:\Program Files (x86)\Stunt Rally vX.Y`:
+# {{ cookiecutter.project_title }} Chocolatey Package
+Allows the installation of [{{ cookiecutter.project_title }}]({{ cookiecutter.project_url }}) by {{ cookiecutter.project_authors }} via the [Chocolatey Package Manager](https://community.chocolatey.org/) for Windows. The setup will install {{ cookiecutter.project_title }} on a Windows system.
 
 ## Install
 ```pwsh
-choco install stuntrally
+choco install {{ cookiecutter.package_slug }}
 ```
 
 ## Uninstall
 ```pwsh
-choco uninstall stuntrally
+choco uninstall {{ cookiecutter.package_slug }}
 ```
 
 ## Upgrade
 ```pwsh
-choco upgrade stuntrally
+choco upgrade {{ cookiecutter.package_slug }}
 ```
