@@ -43,7 +43,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>{{ cookiecutter.project_license_url }}</licenseUrl>
-    <requireLicenseAcceptance>{{ cookiecutter.require_license_accept }}</requireLicenseAcceptance>
+    <requireLicenseAcceptance>{{ 'true' if cookiecutter.require_license_accept else 'false' }}</requireLicenseAcceptance>
     <projectSourceUrl>{{ cookiecutter.project_repo_url }}</projectSourceUrl>
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
