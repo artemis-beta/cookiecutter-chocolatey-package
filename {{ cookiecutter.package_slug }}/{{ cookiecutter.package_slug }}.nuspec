@@ -33,7 +33,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>{{ cookiecutter.project_name }}</title>
+    <title>{{ cookiecutter.project_title }}</title>
     <authors>{{ cookiecutter.project_authors }}</authors>
     <owners>{{ cookiecutter.package_author }}</owners>
     <!-- projectUrl is required for the community feed -->
